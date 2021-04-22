@@ -61,8 +61,14 @@ INFO:     Application startup complete.
 - Set a database *username* and *password*, and choose a connection method! For example: mongo / mongo123456 .
 
 ## Connect MongoDB Database
+Use *motor* module:
 ``` sh
 pip install motor
+```
+Or use *pymongo* module:
+``` sh
+pip install pymongo
+pip install dnspython
 ```
 
 create a `settings.py` file and type the following code:
